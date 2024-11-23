@@ -1,0 +1,52 @@
+Bot: 
+        👋 Welcome to the Career Guide Bot! 
+
+        I can help you explore career options and guide your path after 12th grade.
+
+        You can ask me about:
+        - 🎓 Streams like Science, Commerce, and Arts
+        - 📚 Courses and colleges
+        - 💼 Career opportunities and salaries
+        - 📝 Entrance exams and preparation tips
+
+        How can I help you today?
+        
+
+You: what i have to take after 12th which stream we have to tack
+
+Bot: The stream you should take after 12th depends entirely on your interests, skills, and career aspirations. There's no single "right" answer.  To help you decide, consider these factors:
+
+* **Your Interests:** What subjects do you enjoy studying?  Are you passionate about science, humanities, commerce, or something else?  Your enjoyment will greatly impact your success and motivation.
+
+* **Your Skills:**  What are you good at? Are you strong in math and science, or do you excel in writing and critical thinking?  Choosing a stream that aligns with your skills will make learning easier.
+
+* **Career Goals:** What kind of career do you envision for yourself?  Research the educational requirements for your desired profession.  Many careers require specific undergraduate degrees.
+
+Here are some common streams after 12th:
+
+* **Science:** This stream typically leads to careers in medicine, engineering, technology, and research.  Common subjects include Physics, Chemistry, Biology, and Mathematics.  Further specializations within Science include:
+    * **Engineering:** (Mechanical, Electrical, Civil, Chemical, Computer, etc.)
+    * **Medical:** (MBBS, BDS, etc.)
+    * **Pure Sciences:** (Physics, Chemistry, Biology, Mathematics, etc.)
+
+* **Commerce:** This stream focuses on business, finance, and accounting.  It often leads to careers in banking, finance, management, and accounting.  Common subjects include Accountancy, Business Studies, Economics.
+
+* **Humanities:** This stream explores social sciences, languages, literature, and the arts.  It can lead to careers in journalism, law, teaching, social work, and the arts.  Common subjects include History, Geography, Political Science, Literature, Sociology, Psychology.
+
+* **Vocational Courses:** These courses focus on specific skills and trades, leading to immediate employment after completion.  Examples include diplomas in nursing, IT, hospitality, and various other technical fields.
+
+**To make an informed decision:**
+
+1. **Self-assessment:** Reflect on your interests, skills, and career goals.
+2. **Research:** Explore different streams and career paths.  Look into university programs and job opportunities.
+3. **Talk to people:** Discuss your options with teachers, counselors, family, friends, and professionals in fields that interest you.
+4. **Consider aptitude tests:** Some tests can help identify your strengths and weaknesses and suggest suitable career paths.
+
+
+Ultimately, the best stream for you is the one that aligns with your individual aspirations and capabilities.  Don't be afraid to seek guidance and explore your options carefully before making this important decision.
+
+
+You: what i have to take after highschool
+
+Bot: 🔍 I'm here to help with career-related queries. Please ask me about courses, exams, or job opportunities!
+
