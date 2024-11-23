@@ -1,3 +1,4 @@
+
 import streamlit as st
 import google.generativeai as genai
 
@@ -111,14 +112,45 @@ RESOURCE_INFO = {
         - Required for IIMs and top B-schools
     """
 }
+# Define career-related keywords
+CAREER_KEYWORDS = [
+    "career", "job", "course", "college", "stream", 
+    "exam", "salary", "opportunity", "guidance", "12", "12th",
+    "future", "education", "degree", "graduation", "post-graduation", 
+    "professional", "skills", "talent", "strength", "weakness",
+    "aptitude", "goal", "interest", "passion", "field", "domain",
+    "job market", "industry", "trending", "high-paying",
+    "entrance", "admission", "scholarship", "internship", 
+    "diploma", "certificate", "bachelor", "master", "phd",
+    "career path", "career options", "stream selection", 
+    "specialization", "engineering", "medical", "science",
+    "commerce", "arts", "humanities", "law", "management",
+    "technology", "coding", "data science", "AI", "machine learning",
+    "design", "animation", "graphic design", "finance", 
+    "accounting", "marketing", "psychology", "economics",
+    "lawyer", "doctor", "engineer", "architect", 
+    "entrepreneur", "startup", "business", "teaching", 
+    "professor", "journalism", "photography", "freelancing",
+    "freelance jobs", "part-time jobs", "remote jobs",
+    "career growth", "career change", "career opportunities",
+    "government jobs", "private sector", "public sector",
+    "entrance preparation", "mock tests", "exam tips",
+    "career tips", "guidance counselor", "mentor","science","Maths","jee","neet","gat","cat","upsc","goverment exam"
+]
+
 
 def get_response(user_input):
     """Generate a response from Gemini AI if input contains career-related keywords."""
-    try:
-        gemini_response = model.generate_content(user_input)
-        return gemini_response.text
-    except Exception as e:
-        return f"⚠️ Sorry, I couldn't process your request due to an error: {str(e)}"
+    if any(keyword in user_input.lower() for keyword in CAREER_KEYWORDS):
+        try:
+            # Query Gemini AI
+            gemini_response = model.generate_content(user_input)
+            return gemini_response.text  # Return the AI-generated response
+        except Exception as e:
+            return f"⚠️ Sorry, I couldn't process your request due to an error: {str(e)}"
+    else:
+        # Return a fallback message for non-career-related queries
+        return "🔍 I'm here to help with career-related queries. Please ask me about courses, exams, or job opportunities!"
 
 def save_chat_history():
     """Save the current chat history to a downloadable text file."""
